@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(#099709, #9198e5);
+  font-family: Verdana, sans-serif;
+  color: rgb(57, 57, 68);
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(57, 57, 68);
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  line-height: 1;
+}
+
+h2 {
+  color: rgb(57, 57, 68);
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+p {
+    color: rgb(57, 57, 68);
+  font-family: Arial, sans-serif;
+  font-size: 15 px;
+  line-height: 1;
+}
+
+a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(5, 108, 156, 0.808);
+  text-decoration: none;
+}
+
+.card {
+  border: 2px solid rgb(210, 210, 210, 1);
+  margin: auto;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 70px;
+  text-align: center;
+  background: linear-gradient(#099709, #9198e5);
+}
+
+.card:hover {
+  background: linear-gradient(#099709, #fff);
+}
+
+.img-circle {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+#logo {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+.button {
+  background-color: rgb(57, 57, 68);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  border-radius: 10%;
+}
+
+.button:hover {
+  background-color: #1629d3;
+  color: white;
+  font-weight: bold;
+}
+
+.logo_table {
+  background: linear-gradient(#099709, #9198e5);
+  border: 2px solid rgb(210, 210, 210, 1);
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.logo_table:hover {
+  color: white;
+  font-weight: bold;
+  background-color: white;
+  background: linear-gradient(#099709, #fff);
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 25px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .card {
+    border: 2px solid rgb(210, 210, 210, 1);
+    margin: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 2px;
+    text-align: center;
+    background: black;
+    width: auto;
+  }
+}
